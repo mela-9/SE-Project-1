@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projek Animasi Olahraga untuk Pembelajaran dan Tes Logic anak-anak</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <p class="text-3xl pb-4 text-blue-500  font-bold pl-6 pt-6 bg-yellow-100">hellow</p>
+    <p style="color: goldenrod;">Hello Kids!</p>  
+    <!-- ctrl + / untuk buat komentar seperti ini.
+     p: itu sebagai tag, 
+     style: itu sebagai atribut dengan color sebagai atribut value 
+    (yang ada didalam tanda kutip setelah =) -->
+
+    <hr/>
+    <!-- self closing tag: efeknya itu ngasih horizontal line dibawah 
+     dibawah paragraf diatas-->
+
+    <p>Belajar olaharaga apalagi ya hari ini? <br/> Yuk, klik tombol dibawah</p>
+    <!-- br: untuk break baris setelahnya untuk turun ke bawah -->
+
+     <h2>
+        Soccer Ball, Let's Go!
+     </h2>
+     <!-- heading/judul bab h1-h6 -->
+      <p>Pemain dalam olahraga sepak bola ada <b> 12 orang.</b> <i>Melatih otot kaki.</i></p>
+      <!-- b: teks tebal, i: teks miring-->
+
+       <p> Ayo! <sub> Bermain diluar ruangan.</sub> Tingkatkan!<sup>Skill dan buat Tim yang hebat.</sup></p>
+       <!-- sub: teks ke bawah, sup: teks ke atas -->
+
+        <h1>Bullet point</h1>
+        <ul>
+            <li>Soccer Ball <p> Soccer Ball adalah...</p></li>
+            <li type="circle">Swimming Ball</li>
+            <li type="square">Volley Ball</li>
+            <!-- <li type="none">Badminton</li> navigation -->
+        </ul>
+        <!-- unordered list item (titik bulat)-->
+
+            <h1>Soccer Ball Tutorials</h1>
+            <p>Ada beberapa macam tendangan: </p>
+            <ol type="a">
+                <li> Tendangan kaki dalam</li>
+                <li> Tendangan kaki luar</li>
+            </ol>
+            <ol type="A">
+                <li> Tendangan kaki dalam</li>
+                <li> Tendangan kaki luar</li>
+            </ol>
+            <ol type="i">
+                <li> Tendangan kaki dalam</li>
+                <li> Tendangan kaki luar</li>
+            </ol>
+             <ol type="I">
+                <li> Tendangan kaki dalam</li>
+                <li> Tendangan kaki luar</li>
+            </ol>
+            <!-- unordered list item (angka) -->
+             <h1>Tabel Macam-Macam Olahraga</h1>
+             <table border="1"> 
+                <thead>
+                    <tr> 
+                        <th>Nama</th>
+                        <th>Pengertian</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sepak Bola </td>
+                        <td>Sepak Bola adalah ...</td>
+                    </tr>
+                     <tr>
+                        <td>Sepak Bola </td>
+                        <td>Sepak Bola adalah ...</td>
+                    </tr>
+                    <tr>
+                        <th>Peraturan Permainan</th>
+                    </tr>
+                </tbody>
+             </table>
+             <!-- buat table
+              tr: row, td: isi -->
+
+             <h1>soccer ball</h1>
+             <img src="./soccer.png" alt="soccer ball" width="100" height="100" alt="gambar sepak bola"/>
+             <!-- link di dalam file -->
+             <img src="https://cdn.pixabay.com/photo/2016/05/31/23/21/badminton-1428046_640.jpg" width="100" height="100" alt="gambar badminton"/>
+             <!-- link luar: open image in new tab -> copy image address -->
+
+             <h1> menuju link swimming ball tutorials</h1>
+             <p>Berikut adalah video<a href="https://pixabay.com/id/images/search/bulu%20tangkis/" target="_blank"> strategi </a></p>
+             <a href="./second.html">second html</a>
+             <!-- link ke halaman lain -->
+              <a href="#lorem">Go to lorem</a>
+
+              <h1>form contact us</h1>
+              <form>
+                <label>Nama</label>
+                <input type="text" placeholder="Tulis nama anda..."/>
+                <br/>
+                <label>Age</label>
+                <input type="number" min="18" max="120"/>
+                <br/>
+                <label>password</label>
+                <input type="password"/>
+                <br/>
+                <label>jenis kelamin</label>
+                <br/>
+                <input type="radio" value="male" name="jenis-kelamin">Laki-laki
+                <input type="radio" value="female" nama="jenis-kelamin">Perempuan
+                <br/> 
+               <label> makanan favorit</label>
+               <select>
+                <option value="sate">sate</option>
+                <option value="soto">soto</option>
+                <option value="kikl">kikil</option>
+                <option value="rendang">rendang</option>
+               </select>
+                <label>comment</label>
+                <textarea rows="5" cols="30" placeholder="tulis komentar disini"></textarea>
+                 <input type="checkbox"/>Saya setuju dengan s&k diatas.
+                 <input type="submit" value="kirim"/>
+                 <br/>
+                 <button type="submit">send</button>
+              </form>
+            <!-- rows: ada berapa baris komentar, cols itu kolom, 
+            placeholder itu kalimat sebelum pengguna mengisi comment -->
+
+
+        <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+           Odit temporibus minus distinctio debitis laborum corporis 
+           veniam delectus dolorem cum, tempora, sit culpa nostrum mollitia 
+           unde amet quidem repellat error voluptatibus!</p>
+
+           
+
+</body>
+</html>
